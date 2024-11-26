@@ -1,0 +1,175 @@
+/* Base Theme */
+.root {
+    -fx-background-color: #f5f5f5;
+    -fx-font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+/* Grid Pane */
+.grid_pane {
+    -fx-background-color: white;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 10, 0, 0, 2);
+    -fx-padding: 20;
+    -fx-background-radius: 5;
+}
+
+/* Title Styles */
+.app-title {
+    -fx-text-fill: #2196F3;
+    -fx-font-size: 48px;
+    -fx-font-weight: bold;
+}
+
+.app-subtitle {
+    -fx-text-fill: #757575;
+    -fx-font-size: 24px;
+}
+
+/* Form Controls */
+.text-field, .password-field {
+    -fx-background-color: #f8f9fa;
+    -fx-border-color: #e0e0e0;
+    -fx-border-radius: 4;
+    -fx-background-radius: 4;
+    -fx-padding: 8;
+    -fx-font-size: 14px;
+}
+
+.text-field:focused, .password-field:focused {
+    -fx-border-color: #2196F3;
+    -fx-background-color: white;
+}
+
+.button {
+    -fx-background-color: #2196F3;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 8 16;
+    -fx-background-radius: 4;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #1976D2;
+}
+
+/* Sign Up Button */
+.button:last-child {
+    -fx-background-color: #4CAF50;
+}
+
+.button:last-child:hover {
+    -fx-background-color: #388E3C;
+}
+
+/* Labels */
+.label {
+    -fx-text-fill: #424242;
+    -fx-font-size: 14px;
+}
+
+/* Status Label */
+.status-label {
+    -fx-text-fill: #f44336;
+    -fx-font-size: 12px;
+}
+
+/* Remember Me Checkbox */
+.check-box {
+    -fx-text-fill: #757575;
+    -fx-font-size: 12px;
+}
+
+.check-box .box {
+    -fx-background-color: white;
+    -fx-border-color: #e0e0e0;
+    -fx-border-radius: 2;
+}
+
+/* Common Styles */
+.button {
+    -fx-background-radius: 5;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 10, 0, 0, 2);
+}
+
+.text-field {
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+    -fx-border-color: -fx-primary;
+    -fx-border-width: 1;
+    -fx-padding: 8;
+}
+
+.table-view {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header {
+    -fx-background-color: -fx-primary;
+    -fx-text-fill: white;
+}
+
+.menu-bar {
+    -fx-background-color: -fx-primary-dark;
+}
+
+.menu .label {
+    -fx-text-fill: white;
+}
+
+.menu-item .label {
+    -fx-text-fill: -fx-text-color;
+}
+
+/* Search Bar Styling */
+.search-box {
+    -fx-background-color: white;
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+    -fx-border-color: -fx-primary;
+    -fx-padding: 5 15;
+}
+
+/* Status Bar */
+.status-bar {
+    -fx-background-color: -fx-primary-dark;
+    -fx-padding: 5;
+}
+
+.status-bar .label {
+    -fx-text-fill: white;
+}
+
+/* Dark Mode Specific */
+.root.dark .button {
+    -fx-background-color: -fx-primary-dark;
+}
+
+.root.dark .text-field {
+    -fx-background-color: #2d2d2d;
+    -fx-text-fill: white;
+}
+
+.root.dark .table-view {
+    -fx-background-color: #2d2d2d;
+}
+
+.root.dark .table-row-cell {
+    -fx-background-color: #2d2d2d;
+    -fx-text-fill: white;
+}
+
+.root.dark .table-row-cell:odd {
+    -fx-background-color: #333333;
+}
+
+/* Logo Area */
+.logo-container {
+    -fx-padding: 20;
+    -fx-alignment: center;
+}
+
+.app-title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: -fx-primary;
+}
