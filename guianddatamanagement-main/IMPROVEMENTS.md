@@ -60,7 +60,7 @@
 - Added advanced sorting capabilities
 - Included flexible filtering options
 
-These improvements enhance the system's:
+## These improvements enhance the system's:
 1. User Experience
    - Professional appearance
    - Intuitive interface
